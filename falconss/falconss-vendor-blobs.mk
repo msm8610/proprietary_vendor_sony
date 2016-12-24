@@ -422,7 +422,6 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/falconss/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
-	vendor/sony/falconss/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libtzplayready.so:system/vendor/lib/libtzplayready.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
