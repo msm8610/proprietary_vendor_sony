@@ -24,7 +24,6 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/falconss/proprietary/bin/dun-server:system/bin/dun-server \
 	vendor/sony/falconss/proprietary/bin/ftmdaemon:system/bin/ftmdaemon \
 	vendor/sony/falconss/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-	vendor/sony/falconss/proprietary/bin/illumination_service:system/bin/illumination_service \
 	vendor/sony/falconss/proprietary/bin/irsc_util:system/bin/irsc_util \
 	vendor/sony/falconss/proprietary/bin/magnetic:system/bin/magnetic \
 	vendor/sony/falconss/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
@@ -153,7 +152,6 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/falconss/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
 	vendor/sony/falconss/proprietary/etc/sap.conf:system/etc/sap.conf \
 	vendor/sony/falconss/proprietary/lib/hw/camera.vendor.msm8610.so:system/lib/hw/camera.vendor.msm8610.so \
-	vendor/sony/falconss/proprietary/lib/hw/lights.vendor.msm8610.so:system/lib/hw/lights.vendor.msm8610.so \
 	vendor/sony/falconss/proprietary/lib/hw/sensors.msm8610.so:system/lib/hw/sensors.msm8610.so \
 	vendor/sony/falconss/proprietary/lib/lib_asb_tee.so:system/lib/lib_asb_tee.so \
 	vendor/sony/falconss/proprietary/lib/libchromatix_imx135_liveshot.so:system/lib/libchromatix_imx135_liveshot.so \
@@ -163,7 +161,6 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/falconss/proprietary/lib/libfmradio.sony-iris.so:system/lib/libfmradio.sony-iris.so \
 	vendor/sony/falconss/proprietary/lib/libfmradiosony.so:system/lib/libfmradiosony.so \
 	vendor/sony/falconss/proprietary/lib/libkeyctrl.so:system/lib/libkeyctrl.so \
-	vendor/sony/falconss/proprietary/lib/liblights-core.so:system/lib/liblights-core.so \
 	vendor/sony/falconss/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
 	vendor/sony/falconss/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
 	vendor/sony/falconss/proprietary/lib/libMiscTaAccessor.so:system/lib/libMiscTaAccessor.so \
