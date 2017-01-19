@@ -376,7 +376,6 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/falconss/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
-	vendor/sony/falconss/proprietary/vendor/lib/libOpenVG.so:system/vendor/lib/libOpenVG.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
