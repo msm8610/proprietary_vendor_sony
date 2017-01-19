@@ -51,20 +51,8 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/falconss/proprietary/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
 	vendor/sony/falconss/proprietary/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
 	vendor/sony/falconss/proprietary/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
-	vendor/sony/falconss/proprietary/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb:system/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb \
-	vendor/sony/falconss/proprietary/etc/acdbdata/QRD/QRD_General_cal.acdb:system/etc/acdbdata/QRD/QRD_General_cal.acdb \
-	vendor/sony/falconss/proprietary/etc/acdbdata/QRD/QRD_Global_cal.acdb:system/etc/acdbdata/QRD/QRD_Global_cal.acdb \
-	vendor/sony/falconss/proprietary/etc/acdbdata/QRD/QRD_Handset_cal.acdb:system/etc/acdbdata/QRD/QRD_Handset_cal.acdb \
-	vendor/sony/falconss/proprietary/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb:system/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb \
-	vendor/sony/falconss/proprietary/etc/acdbdata/QRD/QRD_Headset_cal.acdb:system/etc/acdbdata/QRD/QRD_Headset_cal.acdb \
-	vendor/sony/falconss/proprietary/etc/acdbdata/QRD/QRD_Speaker_cal.acdb:system/etc/acdbdata/QRD/QRD_Speaker_cal.acdb \
-	vendor/sony/falconss/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
-	vendor/sony/falconss/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
-	vendor/sony/falconss/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
 	vendor/sony/falconss/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
 	vendor/sony/falconss/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
-	vendor/sony/falconss/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
-	vendor/sony/falconss/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
 	vendor/sony/falconss/proprietary/etc/firmware/adsp.b00:system/etc/firmware/adsp.b00 \
 	vendor/sony/falconss/proprietary/etc/firmware/adsp.b01:system/etc/firmware/adsp.b01 \
 	vendor/sony/falconss/proprietary/etc/firmware/adsp.b02:system/etc/firmware/adsp.b02 \
@@ -207,10 +195,7 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/falconss/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
-	vendor/sony/falconss/proprietary/vendor/lib/libc2d2_z180.so:system/vendor/lib/libc2d2_z180.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
-	vendor/sony/falconss/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
-	vendor/sony/falconss/proprietary/vendor/lib/libc2d30.so:system/vendor/lib/libc2d30.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libchromatix_imx134_common.so:system/vendor/lib/libchromatix_imx134_common.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libchromatix_imx134_default_video.so:system/vendor/lib/libchromatix_imx134_default_video.so \
@@ -411,9 +396,6 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/falconss/proprietary/vendor/lib/libquipc_ulp_adapter.so:system/vendor/lib/libquipc_ulp_adapter.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
 	vendor/sony/falconss/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
-	vendor/sony/falconss/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
-	vendor/sony/falconss/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
-	vendor/sony/falconss/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libsc-a2xx.so:system/vendor/lib/libsc-a2xx.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
