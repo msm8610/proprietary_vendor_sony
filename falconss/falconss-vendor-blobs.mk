@@ -156,7 +156,6 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/falconss/proprietary/lib/lib_asb_tee.so:system/lib/lib_asb_tee.so \
 	vendor/sony/falconss/proprietary/lib/libchromatix_imx135_liveshot.so:system/lib/libchromatix_imx135_liveshot.so \
 	vendor/sony/falconss/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
-	vendor/sony/falconss/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
 	vendor/sony/falconss/proprietary/lib/libface.so:system/lib/libface.so \
 	vendor/sony/falconss/proprietary/lib/libfmradio.sony-iris.so:system/lib/libfmradio.sony-iris.so \
 	vendor/sony/falconss/proprietary/lib/libfmradiosony.so:system/lib/libfmradiosony.so \
@@ -314,6 +313,7 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/falconss/proprietary/vendor/lib/libCommandSvc.so:system/vendor/lib/libCommandSvc.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
+	vendor/sony/falconss/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libdrmdiag.so:system/vendor/lib/libdrmdiag.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
