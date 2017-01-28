@@ -386,6 +386,7 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/falconss/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libqmi_csvt_srvc.so:system/vendor/lib/libqmi_csvt_srvc.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
+	vendor/sony/falconss/proprietary/vendor/lib/libqminvapi.so:system/vendor/lib/libqminvapi.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
@@ -394,6 +395,7 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/falconss/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libquipc_ulp_adapter.so:system/vendor/lib/libquipc_ulp_adapter.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
+	vendor/sony/falconss/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
 	vendor/sony/falconss/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
 	vendor/sony/falconss/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
 	vendor/sony/falconss/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
