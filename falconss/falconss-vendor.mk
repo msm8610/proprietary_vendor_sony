@@ -160,7 +160,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/falconss/proprietary/lib/libmorpho_scene_detector.so:system/lib/libmorpho_scene_detector.so \
     vendor/sony/falconss/proprietary/lib/libmorpho_super_resolution.so:system/lib/libmorpho_super_resolution.so \
     vendor/sony/falconss/proprietary/lib/libmorpho_wdr.so:system/lib/libmorpho_wdr.so \
-    vendor/sony/falconss/proprietary/lib/libpin-cache.so:system/lib/libpin-cache.so \
     vendor/sony/falconss/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/sony/falconss/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/sony/falconss/proprietary/lib/libsys-utils.so:system/lib/libsys-utils.so \
@@ -400,7 +399,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/falconss/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/sony/falconss/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/sony/falconss/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
-    vendor/sony/falconss/proprietary/vendor/lib/libtzplayready.so:system/vendor/lib/libtzplayready.so \
     vendor/sony/falconss/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/sony/falconss/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/sony/falconss/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
