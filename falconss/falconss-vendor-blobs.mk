@@ -22,6 +22,7 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/falconss/proprietary/bin/drmdiagapp:system/bin/drmdiagapp \
 	vendor/sony/falconss/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
 	vendor/sony/falconss/proprietary/bin/dun-server:system/bin/dun-server \
+	vendor/sony/falconss/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
 	vendor/sony/falconss/proprietary/bin/ftmdaemon:system/bin/ftmdaemon \
 	vendor/sony/falconss/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
 	vendor/sony/falconss/proprietary/bin/irsc_util:system/bin/irsc_util \
