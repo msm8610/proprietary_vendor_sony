@@ -31,7 +31,6 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/falconss/proprietary/bin/netmgrd:system/bin/netmgrd \
 	vendor/sony/falconss/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app \
 	vendor/sony/falconss/proprietary/bin/qmuxd:system/bin/qmuxd \
-	vendor/sony/falconss/proprietary/bin/qseecomd:system/bin/qseecomd \
 	vendor/sony/falconss/proprietary/bin/radish:system/bin/radish \
 	vendor/sony/falconss/proprietary/bin/rfs_access:system/bin/rfs_access \
 	vendor/sony/falconss/proprietary/bin/rild:system/bin/rild \
@@ -406,7 +405,6 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/falconss/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
-	vendor/sony/falconss/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libquipc_ulp_adapter.so:system/vendor/lib/libquipc_ulp_adapter.so \
 	vendor/sony/falconss/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
