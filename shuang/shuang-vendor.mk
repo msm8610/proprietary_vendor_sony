@@ -19,10 +19,13 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shuang/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
     vendor/sony/shuang/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/sony/shuang/proprietary/bin/dun-server:system/bin/dun-server \
+    vendor/sony/shuang/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/sony/shuang/proprietary/bin/ftmdaemon:system/bin/ftmdaemon \
     vendor/sony/shuang/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/sony/shuang/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/sony/shuang/proprietary/bin/magnetic:system/bin/magnetic \
+    vendor/sony/shuang/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
+    vendor/sony/shuang/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
     vendor/sony/shuang/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/sony/shuang/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/sony/shuang/proprietary/bin/netmgrd:system/bin/netmgrd \
@@ -138,9 +141,17 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shuang/proprietary/lib/hw/sensors.msm8610.so:system/lib/hw/sensors.msm8610.so \
     vendor/sony/shuang/proprietary/lib/libMiscTaAccessor.so:system/lib/libMiscTaAccessor.so \
     vendor/sony/shuang/proprietary/lib/lib_asb_tee.so:system/lib/lib_asb_tee.so \
+    vendor/sony/shuang/proprietary/lib/libchromatix_imx134_LTO08BS0_liveshot.so:system/lib/libchromatix_imx134_LTO08BS0_liveshot.so \
+    vendor/sony/shuang/proprietary/lib/libchromatix_imx134_LTO08BS0_video_hd.so:system/lib/libchromatix_imx134_LTO08BS0_video_hd.so \
+    vendor/sony/shuang/proprietary/lib/libchromatix_imx134_SOI08BS2_liveshot.so:system/lib/libchromatix_imx134_SOI08BS2_liveshot.so \
+    vendor/sony/shuang/proprietary/lib/libchromatix_imx134_SOI08BS2_video_hd.so:system/lib/libchromatix_imx134_SOI08BS2_video_hd.so \
     vendor/sony/shuang/proprietary/lib/libchromatix_imx135_liveshot.so:system/lib/libchromatix_imx135_liveshot.so \
     vendor/sony/shuang/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
     vendor/sony/shuang/proprietary/lib/libface.so:system/lib/libface.so \
+    vendor/sony/shuang/proprietary/lib/libfaceanalyzer.so:system/lib/libfaceanalyzer.so \
+    vendor/sony/shuang/proprietary/lib/libfaceengine.so:system/lib/libfaceengine.so \
+    vendor/sony/shuang/proprietary/lib/libfilterpack_facedetect.so:system/lib/libfilterpack_facedetect.so \
+    vendor/sony/shuang/proprietary/lib/libfilterpack_imageproc.so:system/lib/libfilterpack_imageproc.so \
     vendor/sony/shuang/proprietary/lib/libfmradio.sony-iris.so:system/lib/libfmradio.sony-iris.so \
     vendor/sony/shuang/proprietary/lib/libfmradiosony.so:system/lib/libfmradiosony.so \
     vendor/sony/shuang/proprietary/lib/libkeyctrl.so:system/lib/libkeyctrl.so \
@@ -148,6 +159,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shuang/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/sony/shuang/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
     vendor/sony/shuang/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
+    vendor/sony/shuang/proprietary/lib/libmmcamera_holly_eeprom.so:system/lib/libmmcamera_holly_eeprom.so \
     vendor/sony/shuang/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/sony/shuang/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/sony/shuang/proprietary/lib/libmorpho_denoiser.so:system/lib/libmorpho_denoiser.so \
@@ -156,6 +168,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shuang/proprietary/lib/libmorpho_fdw.so:system/lib/libmorpho_fdw.so \
     vendor/sony/shuang/proprietary/lib/libmorpho_hdr_checker.so:system/lib/libmorpho_hdr_checker.so \
     vendor/sony/shuang/proprietary/lib/libmorpho_image_stabilizer3.so:system/lib/libmorpho_image_stabilizer3.so \
+    vendor/sony/shuang/proprietary/lib/libmorpho_movie_stabilizer3.so:system/lib/libmorpho_movie_stabilizer3.so \
+    vendor/sony/shuang/proprietary/lib/libmorpho_object_tracker2.so:system/lib/libmorpho_object_tracker2.so \
     vendor/sony/shuang/proprietary/lib/libmorpho_posture_detect.so:system/lib/libmorpho_posture_detect.so \
     vendor/sony/shuang/proprietary/lib/libmorpho_scene_detector.so:system/lib/libmorpho_scene_detector.so \
     vendor/sony/shuang/proprietary/lib/libmorpho_super_resolution.so:system/lib/libmorpho_super_resolution.so \
@@ -178,6 +192,18 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shuang/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
     vendor/sony/shuang/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
     vendor/sony/shuang/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
+    vendor/sony/shuang/proprietary/vendor/lib/lib-ims-rcscmjni.so:system/vendor/lib/lib-ims-rcscmjni.so \
+    vendor/sony/shuang/proprietary/vendor/lib/lib-imsSDP.so:system/vendor/lib/lib-imsSDP.so \
+    vendor/sony/shuang/proprietary/vendor/lib/lib-imscamera.so:system/vendor/lib/lib-imscamera.so \
+    vendor/sony/shuang/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
+    vendor/sony/shuang/proprietary/vendor/lib/lib-imsqimf.so:system/vendor/lib/lib-imsqimf.so \
+    vendor/sony/shuang/proprietary/vendor/lib/lib-imsrcs.so:system/vendor/lib/lib-imsrcs.so \
+    vendor/sony/shuang/proprietary/vendor/lib/lib-imsrcscm.so:system/vendor/lib/lib-imsrcscm.so \
+    vendor/sony/shuang/proprietary/vendor/lib/lib-imsrcscmclient.so:system/vendor/lib/lib-imsrcscmclient.so \
+    vendor/sony/shuang/proprietary/vendor/lib/lib-imsrcscmservice.so:system/vendor/lib/lib-imsrcscmservice.so \
+    vendor/sony/shuang/proprietary/vendor/lib/lib-imss.so:system/vendor/lib/lib-imss.so \
+    vendor/sony/shuang/proprietary/vendor/lib/lib-imsvt.so:system/vendor/lib/lib-imsvt.so \
+    vendor/sony/shuang/proprietary/vendor/lib/lib-imsxml.so:system/vendor/lib/lib-imsxml.so \
     vendor/sony/shuang/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/sony/shuang/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/sony/shuang/proprietary/vendor/lib/libCommandSvc.so:system/vendor/lib/libCommandSvc.so \
@@ -199,6 +225,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shuang/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/sony/shuang/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
     vendor/sony/shuang/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libactuator_bu64291gwz.so:system/vendor/lib/libactuator_bu64291gwz.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libactuator_bu64291gwz_camcorder.so:system/vendor/lib/libactuator_bu64291gwz_camcorder.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libactuator_bu64291gwz_camera.so:system/vendor/lib/libactuator_bu64291gwz_camera.so \
     vendor/sony/shuang/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
     vendor/sony/shuang/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/sony/shuang/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
@@ -210,6 +239,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shuang/proprietary/vendor/lib/libchromatix_SKUAA_ST_gc0339_common.so:system/vendor/lib/libchromatix_SKUAA_ST_gc0339_common.so \
     vendor/sony/shuang/proprietary/vendor/lib/libchromatix_SKUAA_ST_gc0339_default_video.so:system/vendor/lib/libchromatix_SKUAA_ST_gc0339_default_video.so \
     vendor/sony/shuang/proprietary/vendor/lib/libchromatix_SKUAA_ST_gc0339_preview.so:system/vendor/lib/libchromatix_SKUAA_ST_gc0339_preview.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libchromatix_SKUAA_ST_gc0339sec_common.so:system/vendor/lib/libchromatix_SKUAA_ST_gc0339sec_common.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libchromatix_SKUAA_ST_gc0339sec_default_video.so:system/vendor/lib/libchromatix_SKUAA_ST_gc0339sec_default_video.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libchromatix_SKUAA_ST_gc0339sec_preview.so:system/vendor/lib/libchromatix_SKUAA_ST_gc0339sec_preview.so \
     vendor/sony/shuang/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_common.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_common.so \
     vendor/sony/shuang/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_default_video.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_default_video.so \
     vendor/sony/shuang/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_120fps.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_120fps.so \
@@ -220,6 +252,74 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shuang/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_snapshot.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_snapshot.so \
     vendor/sony/shuang/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_video_hd.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_video_hd.so \
     vendor/sony/shuang/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_zsl.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_zsl.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libchromatix_imx134_LTO08BS0_common.so:system/vendor/lib/libchromatix_imx134_LTO08BS0_common.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libchromatix_imx134_LTO08BS0_default_video.so:system/vendor/lib/libchromatix_imx134_LTO08BS0_default_video.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libchromatix_imx134_LTO08BS0_preview.so:system/vendor/lib/libchromatix_imx134_LTO08BS0_preview.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libchromatix_imx134_LTO08BS0_snapshot.so:system/vendor/lib/libchromatix_imx134_LTO08BS0_snapshot.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libchromatix_imx134_SOI08BS2_common.so:system/vendor/lib/libchromatix_imx134_SOI08BS2_common.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libchromatix_imx134_SOI08BS2_default_video.so:system/vendor/lib/libchromatix_imx134_SOI08BS2_default_video.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libchromatix_imx134_SOI08BS2_liveshot_beach.so:system/vendor/lib/libchromatix_imx134_SOI08BS2_liveshot_beach.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libchromatix_imx134_SOI08BS2_liveshot_landscape.so:system/vendor/lib/libchromatix_imx134_SOI08BS2_liveshot_landscape.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libchromatix_imx134_SOI08BS2_liveshot_night.so:system/vendor/lib/libchromatix_imx134_SOI08BS2_liveshot_night.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libchromatix_imx134_SOI08BS2_liveshot_party.so:system/vendor/lib/libchromatix_imx134_SOI08BS2_liveshot_party.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libchromatix_imx134_SOI08BS2_liveshot_portrait.so:system/vendor/lib/libchromatix_imx134_SOI08BS2_liveshot_portrait.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libchromatix_imx134_SOI08BS2_liveshot_snow.so:system/vendor/lib/libchromatix_imx134_SOI08BS2_liveshot_snow.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libchromatix_imx134_SOI08BS2_liveshot_sports.so:system/vendor/lib/libchromatix_imx134_SOI08BS2_liveshot_sports.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libchromatix_imx134_SOI08BS2_preview.so:system/vendor/lib/libchromatix_imx134_SOI08BS2_preview.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libchromatix_imx134_SOI08BS2_preview_anti_motion_blur.so:system/vendor/lib/libchromatix_imx134_SOI08BS2_preview_anti_motion_blur.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libchromatix_imx134_SOI08BS2_preview_baby.so:system/vendor/lib/libchromatix_imx134_SOI08BS2_preview_baby.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libchromatix_imx134_SOI08BS2_preview_backlight.so:system/vendor/lib/libchromatix_imx134_SOI08BS2_preview_backlight.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libchromatix_imx134_SOI08BS2_preview_backlight_portrait.so:system/vendor/lib/libchromatix_imx134_SOI08BS2_preview_backlight_portrait.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libchromatix_imx134_SOI08BS2_preview_beach.so:system/vendor/lib/libchromatix_imx134_SOI08BS2_preview_beach.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libchromatix_imx134_SOI08BS2_preview_dark.so:system/vendor/lib/libchromatix_imx134_SOI08BS2_preview_dark.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libchromatix_imx134_SOI08BS2_preview_dish.so:system/vendor/lib/libchromatix_imx134_SOI08BS2_preview_dish.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libchromatix_imx134_SOI08BS2_preview_document.so:system/vendor/lib/libchromatix_imx134_SOI08BS2_preview_document.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libchromatix_imx134_SOI08BS2_preview_fireworks.so:system/vendor/lib/libchromatix_imx134_SOI08BS2_preview_fireworks.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libchromatix_imx134_SOI08BS2_preview_handheld_twilight.so:system/vendor/lib/libchromatix_imx134_SOI08BS2_preview_handheld_twilight.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libchromatix_imx134_SOI08BS2_preview_high_sensitivity.so:system/vendor/lib/libchromatix_imx134_SOI08BS2_preview_high_sensitivity.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libchromatix_imx134_SOI08BS2_preview_landscape.so:system/vendor/lib/libchromatix_imx134_SOI08BS2_preview_landscape.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libchromatix_imx134_SOI08BS2_preview_macro.so:system/vendor/lib/libchromatix_imx134_SOI08BS2_preview_macro.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libchromatix_imx134_SOI08BS2_preview_night.so:system/vendor/lib/libchromatix_imx134_SOI08BS2_preview_night.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libchromatix_imx134_SOI08BS2_preview_night_portrait.so:system/vendor/lib/libchromatix_imx134_SOI08BS2_preview_night_portrait.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libchromatix_imx134_SOI08BS2_preview_party.so:system/vendor/lib/libchromatix_imx134_SOI08BS2_preview_party.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libchromatix_imx134_SOI08BS2_preview_pet.so:system/vendor/lib/libchromatix_imx134_SOI08BS2_preview_pet.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libchromatix_imx134_SOI08BS2_preview_portrait.so:system/vendor/lib/libchromatix_imx134_SOI08BS2_preview_portrait.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libchromatix_imx134_SOI08BS2_preview_snow.so:system/vendor/lib/libchromatix_imx134_SOI08BS2_preview_snow.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libchromatix_imx134_SOI08BS2_preview_soft_skin.so:system/vendor/lib/libchromatix_imx134_SOI08BS2_preview_soft_skin.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libchromatix_imx134_SOI08BS2_preview_sports.so:system/vendor/lib/libchromatix_imx134_SOI08BS2_preview_sports.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libchromatix_imx134_SOI08BS2_preview_spot_light.so:system/vendor/lib/libchromatix_imx134_SOI08BS2_preview_spot_light.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libchromatix_imx134_SOI08BS2_preview_sweep_stitch.so:system/vendor/lib/libchromatix_imx134_SOI08BS2_preview_sweep_stitch.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot.so:system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_anti_motion_blur.so:system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_anti_motion_blur.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_baby.so:system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_baby.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_backlight.so:system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_backlight.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_backlight_portrait.so:system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_backlight_portrait.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_beach.so:system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_beach.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_dark.so:system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_dark.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_dish.so:system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_dish.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_document.so:system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_document.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_fireworks.so:system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_fireworks.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_handheld_twilight.so:system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_handheld_twilight.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_high_sensitivity.so:system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_high_sensitivity.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_landscape.so:system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_landscape.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_macro.so:system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_macro.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_night.so:system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_night.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_night_portrait.so:system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_night_portrait.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_party.so:system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_party.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_pet.so:system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_pet.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_portrait.so:system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_portrait.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_snow.so:system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_snow.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_soft_skin.so:system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_soft_skin.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_sports.so:system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_sports.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_spot_light.so:system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_spot_light.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_sweep_stitch.so:system/vendor/lib/libchromatix_imx134_SOI08BS2_snapshot_sweep_stitch.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libchromatix_imx134_SOI08BS2_video_beach.so:system/vendor/lib/libchromatix_imx134_SOI08BS2_video_beach.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libchromatix_imx134_SOI08BS2_video_landscape.so:system/vendor/lib/libchromatix_imx134_SOI08BS2_video_landscape.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libchromatix_imx134_SOI08BS2_video_night.so:system/vendor/lib/libchromatix_imx134_SOI08BS2_video_night.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libchromatix_imx134_SOI08BS2_video_party.so:system/vendor/lib/libchromatix_imx134_SOI08BS2_video_party.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libchromatix_imx134_SOI08BS2_video_portrait.so:system/vendor/lib/libchromatix_imx134_SOI08BS2_video_portrait.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libchromatix_imx134_SOI08BS2_video_snow.so:system/vendor/lib/libchromatix_imx134_SOI08BS2_video_snow.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libchromatix_imx134_SOI08BS2_video_sports.so:system/vendor/lib/libchromatix_imx134_SOI08BS2_video_sports.so \
     vendor/sony/shuang/proprietary/vendor/lib/libchromatix_imx134_common.so:system/vendor/lib/libchromatix_imx134_common.so \
     vendor/sony/shuang/proprietary/vendor/lib/libchromatix_imx134_default_video.so:system/vendor/lib/libchromatix_imx134_default_video.so \
     vendor/sony/shuang/proprietary/vendor/lib/libchromatix_imx134_hfr_120.so:system/vendor/lib/libchromatix_imx134_hfr_120.so \
@@ -319,17 +419,23 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shuang/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/sony/shuang/proprietary/vendor/lib/libimage-jpeg-enc-omx-comp.so:system/vendor/lib/libimage-jpeg-enc-omx-comp.so \
     vendor/sony/shuang/proprietary/vendor/lib/libimage-omx-common.so:system/vendor/lib/libimage-omx-common.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libimscamera_jni.so:system/vendor/lib/libimscamera_jni.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libimsmedia_jni.so:system/vendor/lib/libimsmedia_jni.so \
     vendor/sony/shuang/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/sony/shuang/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/sony/shuang/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
     vendor/sony/shuang/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/sony/shuang/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/sony/shuang/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
     vendor/sony/shuang/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
     vendor/sony/shuang/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/sony/shuang/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:system/vendor/lib/libmmcamera2_frame_algorithm.so \
     vendor/sony/shuang/proprietary/vendor/lib/libmmcamera2_iface_modules.so:system/vendor/lib/libmmcamera2_iface_modules.so \
     vendor/sony/shuang/proprietary/vendor/lib/libmmcamera2_imglib_modules.so:system/vendor/lib/libmmcamera2_imglib_modules.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libmmcamera2_is.so:system/vendor/lib/libmmcamera2_is.so \
     vendor/sony/shuang/proprietary/vendor/lib/libmmcamera2_isp_modules.so:system/vendor/lib/libmmcamera2_isp_modules.so \
     vendor/sony/shuang/proprietary/vendor/lib/libmmcamera2_pproc_modules.so:system/vendor/lib/libmmcamera2_pproc_modules.so \
     vendor/sony/shuang/proprietary/vendor/lib/libmmcamera2_sensor_modules.so:system/vendor/lib/libmmcamera2_sensor_modules.so \
@@ -409,7 +515,10 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shuang/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/sony/shuang/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/sony/shuang/proprietary/vendor/lib/rfsa/adsp/libadsp_jpege_skel.so:system/vendor/lib/rfsa/adsp/libadsp_jpege_skel.so \
+    vendor/sony/shuang/proprietary/vendor/lib/soundfx/libldnhncr.so:system/vendor/lib/soundfx/libldnhncr.so \
     vendor/sony/shuang/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
+    vendor/sony/shuang/proprietary/vendor/lib/soundfx/libqcomvisualizer.so:system/vendor/lib/soundfx/libqcomvisualizer.so \
+    vendor/sony/shuang/proprietary/vendor/lib/soundfx/libqcomvoiceprocessing.so:system/vendor/lib/soundfx/libqcomvoiceprocessing.so \
     vendor/sony/shuang/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/sony/shuang/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
     vendor/sony/shuang/proprietary/vendor/lib/surround_sound_headers.so:system/vendor/lib/surround_sound_headers.so
