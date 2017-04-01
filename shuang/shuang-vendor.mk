@@ -64,21 +64,11 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shuang/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/sony/shuang/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
     vendor/sony/shuang/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
-    vendor/sony/shuang/proprietary/etc/firmware/image/keymaste.b00:system/etc/firmware/image/keymaste.b00 \
-    vendor/sony/shuang/proprietary/etc/firmware/image/keymaste.b01:system/etc/firmware/image/keymaste.b01 \
-    vendor/sony/shuang/proprietary/etc/firmware/image/keymaste.b02:system/etc/firmware/image/keymaste.b02 \
-    vendor/sony/shuang/proprietary/etc/firmware/image/keymaste.b03:system/etc/firmware/image/keymaste.b03 \
-    vendor/sony/shuang/proprietary/etc/firmware/image/keymaste.mdt:system/etc/firmware/image/keymaste.mdt \
     vendor/sony/shuang/proprietary/etc/firmware/isdbtmm.b00:system/etc/firmware/isdbtmm.b00 \
     vendor/sony/shuang/proprietary/etc/firmware/isdbtmm.b01:system/etc/firmware/isdbtmm.b01 \
     vendor/sony/shuang/proprietary/etc/firmware/isdbtmm.b02:system/etc/firmware/isdbtmm.b02 \
     vendor/sony/shuang/proprietary/etc/firmware/isdbtmm.b03:system/etc/firmware/isdbtmm.b03 \
     vendor/sony/shuang/proprietary/etc/firmware/isdbtmm.mdt:system/etc/firmware/isdbtmm.mdt \
-    vendor/sony/shuang/proprietary/etc/firmware/keymaster.b00:system/etc/firmware/keymaster.b00 \
-    vendor/sony/shuang/proprietary/etc/firmware/keymaster.b01:system/etc/firmware/keymaster.b01 \
-    vendor/sony/shuang/proprietary/etc/firmware/keymaster.b02:system/etc/firmware/keymaster.b02 \
-    vendor/sony/shuang/proprietary/etc/firmware/keymaster.b03:system/etc/firmware/keymaster.b03 \
-    vendor/sony/shuang/proprietary/etc/firmware/keymaster.mdt:system/etc/firmware/keymaster.mdt \
     vendor/sony/shuang/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
     vendor/sony/shuang/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
     vendor/sony/shuang/proprietary/etc/firmware/mba.b00:system/etc/firmware/mba.b00 \
