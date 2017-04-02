@@ -131,6 +131,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shuang/proprietary/lib/hw/sensors.msm8610.so:system/lib/hw/sensors.msm8610.so \
     vendor/sony/shuang/proprietary/lib/libMiscTaAccessor.so:system/lib/libMiscTaAccessor.so \
     vendor/sony/shuang/proprietary/lib/lib_asb_tee.so:system/lib/lib_asb_tee.so \
+    vendor/sony/shuang/proprietary/lib/libcamera_clientsemc.so:system/lib/libcamera_clientsemc.so \
     vendor/sony/shuang/proprietary/lib/libchromatix_imx134_LTO08BS0_liveshot.so:system/lib/libchromatix_imx134_LTO08BS0_liveshot.so \
     vendor/sony/shuang/proprietary/lib/libchromatix_imx134_LTO08BS0_video_hd.so:system/lib/libchromatix_imx134_LTO08BS0_video_hd.so \
     vendor/sony/shuang/proprietary/lib/libchromatix_imx134_SOI08BS2_liveshot.so:system/lib/libchromatix_imx134_SOI08BS2_liveshot.so \
@@ -171,6 +172,23 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shuang/proprietary/lib/libxml2.so:system/lib/libxml2.so \
     vendor/sony/shuang/proprietary/lib/soundfx/libposteffectwrapper.so:system/lib/soundfx/libposteffectwrapper.so \
     vendor/sony/shuang/proprietary/lib/soundfx/libpreeffectwrapper.so:system/lib/soundfx/libpreeffectwrapper.so \
+    vendor/sony/shuang/proprietary/vendor/camera/morpho_colorcorrection.cfg:system/vendor/camera/morpho_colorcorrection.cfg \
+    vendor/sony/shuang/proprietary/vendor/camera/morpho_denoiser.cfg:system/vendor/camera/morpho_denoiser.cfg \
+    vendor/sony/shuang/proprietary/vendor/camera/morpho_denoiser_subcam.cfg:system/vendor/camera/morpho_denoiser_subcam.cfg \
+    vendor/sony/shuang/proprietary/vendor/camera/morpho_denoiser_subcam_preview.cfg:system/vendor/camera/morpho_denoiser_subcam_preview.cfg \
+    vendor/sony/shuang/proprietary/vendor/camera/morpho_evadjust_subcam.cfg:system/vendor/camera/morpho_evadjust_subcam.cfg \
+    vendor/sony/shuang/proprietary/vendor/camera/morpho_face_detection.cfg:system/vendor/camera/morpho_face_detection.cfg \
+    vendor/sony/shuang/proprietary/vendor/camera/morpho_hdr.cfg:system/vendor/camera/morpho_hdr.cfg \
+    vendor/sony/shuang/proprietary/vendor/camera/morpho_hdr_subcam.cfg:system/vendor/camera/morpho_hdr_subcam.cfg \
+    vendor/sony/shuang/proprietary/vendor/camera/morpho_moviesolid.cfg:system/vendor/camera/morpho_moviesolid.cfg \
+    vendor/sony/shuang/proprietary/vendor/camera/morpho_moviesolid_subcam.cfg:system/vendor/camera/morpho_moviesolid_subcam.cfg \
+    vendor/sony/shuang/proprietary/vendor/camera/morpho_photosolid.cfg:system/vendor/camera/morpho_photosolid.cfg \
+    vendor/sony/shuang/proprietary/vendor/camera/morpho_photosolid_subcam.cfg:system/vendor/camera/morpho_photosolid_subcam.cfg \
+    vendor/sony/shuang/proprietary/vendor/camera/morpho_posturedetect.cfg:system/vendor/camera/morpho_posturedetect.cfg \
+    vendor/sony/shuang/proprietary/vendor/camera/morpho_scenedetect.cfg:system/vendor/camera/morpho_scenedetect.cfg \
+    vendor/sony/shuang/proprietary/vendor/camera/morpho_scenedetect_subcam.cfg:system/vendor/camera/morpho_scenedetect_subcam.cfg \
+    vendor/sony/shuang/proprietary/vendor/camera/morpho_super_resolution.cfg:system/vendor/camera/morpho_super_resolution.cfg \
+    vendor/sony/shuang/proprietary/vendor/camera/morpho_tracksolid.cfg:system/vendor/camera/morpho_tracksolid.cfg \
     vendor/sony/shuang/proprietary/vendor/firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
     vendor/sony/shuang/proprietary/vendor/firmware/keymaster/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
     vendor/sony/shuang/proprietary/vendor/firmware/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
