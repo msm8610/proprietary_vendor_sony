@@ -34,7 +34,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shuang/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/sony/shuang/proprietary/bin/radish:system/bin/radish \
     vendor/sony/shuang/proprietary/bin/rfs_access:system/bin/rfs_access \
-    vendor/sony/shuang/proprietary/bin/rild:system/bin/rild \
     vendor/sony/shuang/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/sony/shuang/proprietary/bin/sapd:system/bin/sapd \
     vendor/sony/shuang/proprietary/bin/scd:system/bin/scd \
@@ -166,10 +165,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shuang/proprietary/lib/libmorpho_super_resolution.so:system/lib/libmorpho_super_resolution.so \
     vendor/sony/shuang/proprietary/lib/libmorpho_wdr.so:system/lib/libmorpho_wdr.so \
     vendor/sony/shuang/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/sony/shuang/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/sony/shuang/proprietary/lib/libsys-utils.so:system/lib/libsys-utils.so \
     vendor/sony/shuang/proprietary/lib/libta.so:system/lib/libta.so \
-    vendor/sony/shuang/proprietary/lib/libxml2.so:system/lib/libxml2.so \
     vendor/sony/shuang/proprietary/lib/soundfx/libposteffectwrapper.so:system/lib/soundfx/libposteffectwrapper.so \
     vendor/sony/shuang/proprietary/lib/soundfx/libpreeffectwrapper.so:system/lib/soundfx/libpreeffectwrapper.so \
     vendor/sony/shuang/proprietary/vendor/camera/morpho_colorcorrection.cfg:system/vendor/camera/morpho_colorcorrection.cfg \
