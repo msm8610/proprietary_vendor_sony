@@ -16,7 +16,6 @@
 
 PRODUCT_COPY_FILES += \
     vendor/sony/shuang/proprietary/bin/adsprpcd:system/bin/adsprpcd \
-    vendor/sony/shuang/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
     vendor/sony/shuang/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/sony/shuang/proprietary/bin/dun-server:system/bin/dun-server \
     vendor/sony/shuang/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
