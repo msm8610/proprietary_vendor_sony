@@ -71,8 +71,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shuang/proprietary/etc/firmware/isdbtmm.b02:system/etc/firmware/isdbtmm.b02 \
     vendor/sony/shuang/proprietary/etc/firmware/isdbtmm.b03:system/etc/firmware/isdbtmm.b03 \
     vendor/sony/shuang/proprietary/etc/firmware/isdbtmm.mdt:system/etc/firmware/isdbtmm.mdt \
-    vendor/sony/shuang/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
-    vendor/sony/shuang/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
     vendor/sony/shuang/proprietary/etc/firmware/mba.b00:system/etc/firmware/mba.b00 \
     vendor/sony/shuang/proprietary/etc/firmware/mba.mdt:system/etc/firmware/mba.mdt \
     vendor/sony/shuang/proprietary/etc/firmware/modem.b00:system/etc/firmware/modem.b00 \
@@ -506,7 +504,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shuang/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
     vendor/sony/shuang/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/sony/shuang/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
-    vendor/sony/shuang/proprietary/vendor/lib/libsc-a2xx.so:system/vendor/lib/libsc-a2xx.so \
     vendor/sony/shuang/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
     vendor/sony/shuang/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/sony/shuang/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
