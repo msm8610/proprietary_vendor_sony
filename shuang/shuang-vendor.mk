@@ -26,7 +26,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shuang/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/sony/shuang/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
     vendor/sony/shuang/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/sony/shuang/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/sony/shuang/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/sony/shuang/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app \
     vendor/sony/shuang/proprietary/bin/qmuxd:system/bin/qmuxd \
