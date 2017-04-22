@@ -23,7 +23,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shuang/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/sony/shuang/proprietary/bin/magnetic:system/bin/magnetic \
     vendor/sony/shuang/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/sony/shuang/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/sony/shuang/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/sony/shuang/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app \
     vendor/sony/shuang/proprietary/bin/qmuxd:system/bin/qmuxd \
