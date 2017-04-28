@@ -33,9 +33,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shuang/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/sony/shuang/proprietary/bin/sapd:system/bin/sapd \
     vendor/sony/shuang/proprietary/bin/scd:system/bin/scd \
-    vendor/sony/shuang/proprietary/bin/sct_service:system/bin/sct_service \
-    vendor/sony/shuang/proprietary/bin/ta_qmi_service:system/bin/ta_qmi_service \
-    vendor/sony/shuang/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/sony/shuang/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
     vendor/sony/shuang/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
     vendor/sony/shuang/proprietary/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/MTP_Global_cal.acdb \
@@ -154,6 +151,10 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shuang/proprietary/lib/libxml2.so:system/lib/libxml2.so \
     vendor/sony/shuang/proprietary/lib/soundfx/libposteffectwrapper.so:system/lib/soundfx/libposteffectwrapper.so \
     vendor/sony/shuang/proprietary/lib/soundfx/libpreeffectwrapper.so:system/lib/soundfx/libpreeffectwrapper.so \
+    vendor/sony/shuang/proprietary/vendor/bin/sct_service:system/vendor/bin/sct_service \
+    vendor/sony/shuang/proprietary/vendor/bin/ta_qmi_service:system/vendor/bin/ta_qmi_service \
+    vendor/sony/shuang/proprietary/vendor/bin/tad_static:system/vendor/bin/tad_static \
+    vendor/sony/shuang/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/sony/shuang/proprietary/vendor/camera/morpho_colorcorrection.cfg:system/vendor/camera/morpho_colorcorrection.cfg \
     vendor/sony/shuang/proprietary/vendor/camera/morpho_denoiser.cfg:system/vendor/camera/morpho_denoiser.cfg \
     vendor/sony/shuang/proprietary/vendor/camera/morpho_denoiser_subcam.cfg:system/vendor/camera/morpho_denoiser_subcam.cfg \
@@ -412,7 +413,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shuang/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/sony/shuang/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/sony/shuang/proprietary/vendor/lib/rfsa/adsp/libadsp_jpege_skel.so:system/vendor/lib/rfsa/adsp/libadsp_jpege_skel.so \
-vendor/sony/shuang/proprietary/vendor/lib/soundfx/libldnhncr.so:system/vendor/lib/soundfx/libldnhncr.so \
+    vendor/sony/shuang/proprietary/vendor/lib/soundfx/libldnhncr.so:system/vendor/lib/soundfx/libldnhncr.so \
     vendor/sony/shuang/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/sony/shuang/proprietary/vendor/lib/soundfx/libqcomvisualizer.so:system/vendor/lib/soundfx/libqcomvisualizer.so \
     vendor/sony/shuang/proprietary/vendor/lib/soundfx/libqcomvoiceprocessing.so:system/vendor/lib/soundfx/libqcomvoiceprocessing.so \
