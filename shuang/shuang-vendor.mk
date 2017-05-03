@@ -59,6 +59,11 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shuang/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/sony/shuang/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
     vendor/sony/shuang/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
+    vendor/sony/shuang/proprietary/etc/firmware/image/keymaste.b00:system/etc/firmware/image/keymaste.b00 \
+    vendor/sony/shuang/proprietary/etc/firmware/image/keymaste.b01:system/etc/firmware/image/keymaste.b01 \
+    vendor/sony/shuang/proprietary/etc/firmware/image/keymaste.b02:system/etc/firmware/image/keymaste.b02 \
+    vendor/sony/shuang/proprietary/etc/firmware/image/keymaste.b03:system/etc/firmware/image/keymaste.b03 \
+    vendor/sony/shuang/proprietary/etc/firmware/image/keymaste.mdt:system/etc/firmware/image/keymaste.mdt \
     vendor/sony/shuang/proprietary/etc/firmware/isdbtmm.b00:system/etc/firmware/isdbtmm.b00 \
     vendor/sony/shuang/proprietary/etc/firmware/isdbtmm.b01:system/etc/firmware/isdbtmm.b01 \
     vendor/sony/shuang/proprietary/etc/firmware/isdbtmm.b02:system/etc/firmware/isdbtmm.b02 \
@@ -149,11 +154,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shuang/proprietary/vendor/bin/ta_qmi_service:system/vendor/bin/ta_qmi_service \
     vendor/sony/shuang/proprietary/vendor/bin/tad_static:system/vendor/bin/tad_static \
     vendor/sony/shuang/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
-    vendor/sony/shuang/proprietary/vendor/firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
-    vendor/sony/shuang/proprietary/vendor/firmware/keymaster/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
-    vendor/sony/shuang/proprietary/vendor/firmware/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
-    vendor/sony/shuang/proprietary/vendor/firmware/keymaster/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03 \
-    vendor/sony/shuang/proprietary/vendor/firmware/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt \
     vendor/sony/shuang/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/sony/shuang/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/sony/shuang/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
