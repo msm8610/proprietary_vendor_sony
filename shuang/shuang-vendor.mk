@@ -123,7 +123,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shuang/proprietary/lib/hw/sensors.msm8610.so:system/lib/hw/sensors.msm8610.so \
     vendor/sony/shuang/proprietary/lib/libMiscTaAccessor.so:system/lib/libMiscTaAccessor.so \
     vendor/sony/shuang/proprietary/lib/lib_asb_tee.so:system/lib/lib_asb_tee.so \
-    vendor/sony/shuang/proprietary/lib/libface.so:system/lib/libface.so \
     vendor/sony/shuang/proprietary/lib/libkeyctrl.so:system/lib/libkeyctrl.so \
     vendor/sony/shuang/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/sony/shuang/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
@@ -131,16 +130,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shuang/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/sony/shuang/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/sony/shuang/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
-    vendor/sony/shuang/proprietary/lib/libmorpho_denoiser.so:system/lib/libmorpho_denoiser.so \
-    vendor/sony/shuang/proprietary/lib/libmorpho_easy_hdr.so:system/lib/libmorpho_easy_hdr.so \
-    vendor/sony/shuang/proprietary/lib/libmorpho_edit_engine.so:system/lib/libmorpho_edit_engine.so \
-    vendor/sony/shuang/proprietary/lib/libmorpho_fdw.so:system/lib/libmorpho_fdw.so \
-    vendor/sony/shuang/proprietary/lib/libmorpho_hdr_checker.so:system/lib/libmorpho_hdr_checker.so \
-    vendor/sony/shuang/proprietary/lib/libmorpho_image_stabilizer3.so:system/lib/libmorpho_image_stabilizer3.so \
-    vendor/sony/shuang/proprietary/lib/libmorpho_posture_detect.so:system/lib/libmorpho_posture_detect.so \
-    vendor/sony/shuang/proprietary/lib/libmorpho_scene_detector.so:system/lib/libmorpho_scene_detector.so \
-    vendor/sony/shuang/proprietary/lib/libmorpho_super_resolution.so:system/lib/libmorpho_super_resolution.so \
-    vendor/sony/shuang/proprietary/lib/libmorpho_wdr.so:system/lib/libmorpho_wdr.so \
     vendor/sony/shuang/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/sony/shuang/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/sony/shuang/proprietary/lib/libta.so:system/lib/libta.so \
