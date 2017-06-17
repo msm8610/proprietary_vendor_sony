@@ -119,6 +119,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shuang/proprietary/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \
     vendor/sony/shuang/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/sony/shuang/proprietary/etc/sap.conf:system/etc/sap.conf \
+    vendor/sony/shuang/proprietary/lib/hw/camera.vendor.msm8610.so:system/lib/hw/camera.vendor.msm8610.so \
     vendor/sony/shuang/proprietary/lib/hw/sensors.msm8610.so:system/lib/hw/sensors.msm8610.so \
     vendor/sony/shuang/proprietary/lib/libMiscTaAccessor.so:system/lib/libMiscTaAccessor.so \
     vendor/sony/shuang/proprietary/lib/lib_asb_tee.so:system/lib/lib_asb_tee.so \
@@ -127,6 +128,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shuang/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/sony/shuang/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/sony/shuang/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
+    vendor/sony/shuang/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
+    vendor/sony/shuang/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
+    vendor/sony/shuang/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/sony/shuang/proprietary/lib/libmorpho_denoiser.so:system/lib/libmorpho_denoiser.so \
     vendor/sony/shuang/proprietary/lib/libmorpho_easy_hdr.so:system/lib/libmorpho_easy_hdr.so \
     vendor/sony/shuang/proprietary/lib/libmorpho_edit_engine.so:system/lib/libmorpho_edit_engine.so \
@@ -137,6 +141,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shuang/proprietary/lib/libmorpho_scene_detector.so:system/lib/libmorpho_scene_detector.so \
     vendor/sony/shuang/proprietary/lib/libmorpho_super_resolution.so:system/lib/libmorpho_super_resolution.so \
     vendor/sony/shuang/proprietary/lib/libmorpho_wdr.so:system/lib/libmorpho_wdr.so \
+    vendor/sony/shuang/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/sony/shuang/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/sony/shuang/proprietary/lib/libta.so:system/lib/libta.so \
     vendor/sony/shuang/proprietary/lib/soundfx/libposteffectwrapper.so:system/lib/soundfx/libposteffectwrapper.so \
@@ -220,6 +225,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shuang/proprietary/vendor/lib/libmmstillomx.so:system/vendor/lib/libmmstillomx.so \
     vendor/sony/shuang/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/sony/shuang/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
+    vendor/sony/shuang/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
     vendor/sony/shuang/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/sony/shuang/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/sony/shuang/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
@@ -234,7 +240,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shuang/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/sony/shuang/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
     vendor/sony/shuang/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
-    vendor/sony/shuang/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/sony/shuang/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/sony/shuang/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/sony/shuang/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
