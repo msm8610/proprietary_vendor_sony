@@ -117,8 +117,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shuang/proprietary/etc/firmware/widevine.b03:system/etc/firmware/widevine.b03 \
     vendor/sony/shuang/proprietary/etc/firmware/widevine.mdt:system/etc/firmware/widevine.mdt \
     vendor/sony/shuang/proprietary/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \
-    vendor/sony/shuang/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
-    vendor/sony/shuang/proprietary/etc/sap.conf:system/etc/sap.conf \
     vendor/sony/shuang/proprietary/lib/hw/camera.vendor.msm8610.so:system/lib/hw/camera.vendor.msm8610.so \
     vendor/sony/shuang/proprietary/lib/hw/sensors.msm8610.so:system/lib/hw/sensors.msm8610.so \
     vendor/sony/shuang/proprietary/lib/libMiscTaAccessor.so:system/lib/libMiscTaAccessor.so \
